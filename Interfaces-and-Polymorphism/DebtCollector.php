@@ -5,7 +5,7 @@
 interface DebtCollector{
 
     public function __construct();
-    public function collect(float $owedAmount): float;
+    public function collect(float $owedAmount): void;
 
 
 }
