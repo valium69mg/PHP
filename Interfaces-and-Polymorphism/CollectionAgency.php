@@ -8,5 +8,6 @@ class CollectionAgency implements DebtCollector {
 
     public function collect($owedAmount) {
         echo $owedAmount . '$' . " collected. ";
+        echo '<br>';
     }
 }
